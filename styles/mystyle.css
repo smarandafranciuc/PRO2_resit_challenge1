@@ -1,0 +1,175 @@
+/* CSS RESET */
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+    font-family: degular-display, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+p {
+    color: #DBE1E1;
+    font-size: 40pt;
+}
+
+
+h1 {
+    color: #A43DBA;
+    font-size: 40pt;
+    text-align: center;
+}
+
+#home {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+    background-image: url(../media/background_cracks.png);
+}
+
+#home-content {
+    margin: 30px;
+}
+
+/* Home header */
+#home-header {
+    width: 100%;
+}
+#home-header > img {
+    width: 30%;
+}
+
+/* Home body */
+#home-body {
+  display: flex;
+}
+.home-body-box {
+    margin: 30px;
+}
+#body-box-1 {
+    flex: 2;
+    background-color: #DBE1E120;
+    border-radius: 64px;
+}
+#body-box-2 {
+    flex: 1.5;
+    background-color: #DBE1E120;
+    border-radius: 64px;
+}
+#body-box-3 {
+    flex: 1.5;
+    display: inline-block;
+  
+}
+#body-box-4 {
+    flex: 3;
+   
+}
+.miniBox > img {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    background-size: cover;
+    display: block;
+}
+
+/* Home footer */
+#home-footer {
+    display: flex;
+}
+#body-footer-1 {
+    flex: 2;
+    margin: 30px;
+}
+#body-footer-2 {
+    flex: 1.5;
+    margin: 30px;
+}
+#body-footer-3 {
+    flex: 1.5;
+    margin: 30px;
+}
+#body-footer-4 {    
+    flex: 3;
+    margin: 30px;
+}
+
+#slider-throttle {
+    transform: translate(25%, 0%) rotate(270deg) translate(-50%, 0%);
+    -webkit-appearance: none;
+    width: 500px;
+    margin: -250px;
+    height: 25px;
+    background-image: linear-gradient(.25turn, #6FC3C9, #A43DBA);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#slider-throttle::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 35px;
+  width: 35px;
+  height: 35px;
+  background: #A43DBA;
+  cursor: pointer;
+}
+
+#slider-throttle::-moz-range-thumb {
+    border-radius: 35px;
+    width: 35px;
+    height: 35px;
+  background: #A43DBA;
+  cursor: pointer;
+}
+
+#text-speed, #text-temperature {
+    font-size: 95pt;
+    text-align: center;
+    
+}
+#text-speed-subtext, #text-temperature-subtext {
+    font-size: 20pt;
+    text-align: center;
+}
+.supply-image {
+    width: 48%;
+    padding-top: 15px;
+    padding-left: 8px;
+}
+#text-fuel, #text-food, #text-water {
+    display: inline-block;
+}
+#img-mars {
+    width: 100%;
+}
+
+#text-distance-subtext, #text-distance {
+    text-align: center;
+}
+
+#text-distance-subtext{
+    font-size:20pt;
+}
+
+#text-throttle{
+    bottom: 30;
+    left: 0;
+    text-align:center;
+}
